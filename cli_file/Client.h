@@ -16,6 +16,7 @@ private:
     static Client* _client;
     TcpClient* _tcpClient;
 public:
+    static Client* getClient()
     {
         if(NULL == _client)
         {
